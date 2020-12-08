@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463ad413-c886-476c-b095-b32aaab51749" name="Default Changelist" comment="tasks 10-20 completed" />
+    <list default="true" id="463ad413-c886-476c-b095-b32aaab51749" name="Default Changelist" comment="tasks 21-30 completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,10 +57,10 @@
       <recent name="C:\Users\user\Desktop\Учеба\ООП\JavaOOP\JavaTasks\tasks 11-20\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_20">
-    <configuration name="task_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.task_11" />
-      <module name="tasks 11-20" />
+  <component name="RunManager" selected="Application.task_27">
+    <configuration name="task_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task_21" />
+      <module name="tasks 21-30" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -71,9 +71,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.task_19" />
-      <module name="tasks 11-20" />
+    <configuration name="task_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task_22" />
+      <module name="tasks 21-30" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -84,9 +84,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.task_20" />
-      <module name="tasks 11-20" />
+    <configuration name="task_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task_26" />
+      <module name="tasks 21-30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task_27" />
+      <module name="tasks 21-30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task_28" />
+      <module name="tasks 21-30" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -99,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.task_20" />
-        <item itemvalue="Application.task_19" />
-        <item itemvalue="Application.task_11" />
+        <item itemvalue="Application.task_27" />
+        <item itemvalue="Application.task_26" />
+        <item itemvalue="Application.task_28" />
+        <item itemvalue="Application.task_21" />
+        <item itemvalue="Application.task_22" />
       </list>
     </recent_temporary>
   </component>
@@ -126,27 +154,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tasks 10-20 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 10-20 completed" />
+    <MESSAGE value="tasks 21-30 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks 21-30 completed" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1606082547388">
+    <state x="640" y="265" key="FileChooserDialogImpl" timestamp="1607006883037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606082547388" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1606082547388">
+    <state x="640" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607006883037" />
+    <state width="1340" height="281" key="GridCell.Tab.0.bottom" timestamp="1607455621644">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607454823119" />
+    <state width="1340" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607455621644" />
+    <state width="1340" height="281" key="GridCell.Tab.0.center" timestamp="1607455621644">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607454823119" />
+    <state width="1340" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607455621644" />
+    <state width="1340" height="281" key="GridCell.Tab.0.left" timestamp="1607455621644">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607454823119" />
+    <state width="1340" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607455621644" />
+    <state width="1340" height="281" key="GridCell.Tab.0.right" timestamp="1607455621644">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607454823119" />
+    <state width="1340" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607455621644" />
+    <state x="243" y="144" key="new project wizard" timestamp="1607006953340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606082547388" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1606082547388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606082547388" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1606082547388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606082547388" />
+    <state x="243" y="144" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607006953340" />
   </component>
 </project>
