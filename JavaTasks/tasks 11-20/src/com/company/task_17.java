@@ -9,9 +9,6 @@ public class task_17 {
             if (Character.isDigit(index.charAt(i)) == false) {
                 return false;
             }
-            else {
-
-            }
         }
         return true;
     }
