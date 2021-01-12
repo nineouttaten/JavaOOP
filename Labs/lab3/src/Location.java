@@ -25,28 +25,20 @@ public class Location
     }
     
     /** Compares this Location to another. **/
+    @Override
     public boolean equals(Object obj) {
-        
-        // Is obj a Location?
         if (obj instanceof Location) {
-            
-            // Cast another object to Location type,
-            // then compare.  Return true if equal.
             Location other = (Location) obj;
             if (xCoord == other.xCoord && yCoord == other.yCoord) {
                 return true;
             }
         }
-        
-        // If we got here then they're not equal.  Return false. 
         return false;
     }
-
     /** Provides a hashCode for each Location. **/
+    @Override
     public int hashCode() {
-        int result = 17; // Some prime value
-        
-        // Use another prime value to comnbine
+        int result = 17;
         result = 37 * result + xCoord;
         result = 37 * result + yCoord;
         return result;

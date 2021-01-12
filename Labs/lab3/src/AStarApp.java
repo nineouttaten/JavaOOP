@@ -58,8 +58,7 @@ public class AStarApp {
             
             JMapCell cell = (JMapCell) e.getSource();
             
-            // If the current cell is passable then we are making them
-            // impassable; if it's impassable then we are making them passable.
+
             
             makePassable = !cell.isPassable();
             
@@ -88,13 +87,13 @@ public class AStarApp {
         /** Not needed for this handler. **/
         public void mouseExited(MouseEvent e)
         {
-            // This one we ignore.
+
         }
         
         /** Not needed for this handler. **/
         public void mouseClicked(MouseEvent e)
         {
-            // And this one too.
+
         }
     }
     
@@ -130,8 +129,6 @@ public class AStarApp {
 
         contentPane.setLayout(new BorderLayout());
 
-        // Use GridBagLayout because it actually respects the preferred size
-        // specified by the components it lays out.
         
         GridBagLayout gbLayout = new GridBagLayout();
         GridBagConstraints gbConstraints = new GridBagConstraints();
@@ -217,9 +214,7 @@ public class AStarApp {
                     map.setCellValue(x, y, Integer.MAX_VALUE);
             }
         }
-        
-        // Try to compute a path.  If one can be computed, mark all cells in the
-        // path.
+
         
         Waypoint wp = AStarPathfinder.computePath(map);
         

@@ -1,60 +1,42 @@
+import java.util.*;
 import java.net.*;
 
-/**
- * A class to represent [URL, depth] pairs for our Crawler. 
- */
 public class URLDepthPair {
-    
+    public static final String URL_PREFIX = "<a href=\"http";
 
-    
-    /**
-     * Fields to represent the current URL and current depth.
-     */
-    private int currentDepth;
-    private String currentURL;
-    
-    /**
-     * A constructor that sets the input to the current URL and depth.
-     */
-    public URLDepthPair(String URL, int depth) {
-        currentDepth = depth;
-        currentURL = URL;
+    public String URL;
+    public int depth;
+
+    public URLDepthPair (String URL, int depth){
+        this.URL=URL;
+        this.depth=depth;
     }
 
-    public String getURL() {
-        return currentURL;
+    public String getHost() throws MalformedURLException {
+        URL host = new URL(URL);
+        return host.getHost();
+    }
+
+    public String getPath() throws MalformedURLException {
+        URL path = new URL(URL);
+        return path.getPath();
     }
 
     public int getDepth() {
-        return currentDepth;
+        return depth;
     }
 
-    public String toString() {
-        String stringDepth = Integer.toString(currentDepth);
-        return stringDepth + '\t' + currentURL;
+    public String getURL() {
+        return URL;
     }
 
-    public String getDocPath() {
-        try {
-            URL url = new URL(currentURL);
-            return url.getPath();
-        }
-        catch (MalformedURLException e) {
-            System.err.println("MalformedURLException: " + e.getMessage());
-            return null;
-        }
+    public static boolean check(LinkedList<URLDepthPair> findRef, URLDepthPair pair) {
+        boolean isAlready = true;
+        for (URLDepthPair i: findRef)
+            if (i.getURL().equals(pair.getURL())) {
+                isAlready = false;
+                break;
+            }
+        return isAlready;
     }
-
-    public String getWebHost() {
-        try {
-            URL url = new URL(currentURL);
-            return url.getHost();
-        }
-        catch (MalformedURLException e) {
-            System.err.println("MalformedURLException: " + e.getMessage());
-            return null;
-        }
-    }
-    
-    
 }
